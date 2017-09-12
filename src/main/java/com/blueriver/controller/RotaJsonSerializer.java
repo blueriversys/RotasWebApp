@@ -1,4 +1,4 @@
-package com.javacodegeeks.controller;
+package com.blueriver.controller;
 
 import java.lang.reflect.Type;
 

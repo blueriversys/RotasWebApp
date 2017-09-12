@@ -1,4 +1,4 @@
-package com.javacodegeeks.filter;
+package com.blueriver.filter;
 
 import org.apache.log4j.Logger;
 import org.springframework.web.filter.OncePerRequestFilter;

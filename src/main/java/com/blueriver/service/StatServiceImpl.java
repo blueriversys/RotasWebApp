@@ -1,4 +1,4 @@
-package com.javacodegeeks.service;
+package com.blueriver.service;
 
 import java.net.URISyntaxException;
 import java.sql.SQLException;
@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.javacodegeeks.dao.StatDao;
-import com.javacodegeeks.dao.StatDaoImpl;
+import com.blueriver.dao.StatDao;
+import com.blueriver.dao.StatDaoImpl;
 
 @Service
 public class StatServiceImpl implements StatService {

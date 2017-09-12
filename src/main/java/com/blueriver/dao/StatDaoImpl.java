@@ -1,4 +1,4 @@
-package com.javacodegeeks.dao;
+package com.blueriver.dao;
 
 import java.net.URI;
 import java.net.URISyntaxException;

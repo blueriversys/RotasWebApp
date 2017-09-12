@@ -1,10 +1,10 @@
-package com.javacodegeeks.controller;
+package com.blueriver.controller;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-import com.javacodegeeks.controller.Rota;
+import com.blueriver.controller.Rota;
 
 @XmlRootElement (name = "rotas")
 @XmlType (propOrder={"status","rotas"})

@@ -1,9 +1,9 @@
-package com.javacodegeeks.json;
+package com.blueriver.json;
 
 /**
  * Java bean to be returned to client as JSON in web service calls.
  * 
- * @author joe
+ * @author Blueriver Systems, LLC
  *
  */
 public class Stat {

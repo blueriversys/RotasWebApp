@@ -1,4 +1,4 @@
-package com.javacodegeeks.controller;
+package com.blueriver.controller;
 
 import static org.hamcrest.Matchers.is;
 import static org.mockito.Mockito.times;
@@ -25,11 +25,12 @@ import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
-import com.javacodegeeks.service.StatService;
+import com.blueriver.controller.ApplicationController;
+import com.blueriver.service.StatService;
 
 /**
  * 
- * @author joe
+ * @author Blueriver Systems, LLC
  *
  */
 public class ControllerTest {

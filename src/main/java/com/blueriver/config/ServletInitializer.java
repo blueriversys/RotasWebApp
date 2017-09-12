@@ -1,7 +1,8 @@
-package com.javacodegeeks.config;
+package com.blueriver.config;
 
-import com.javacodegeeks.filter.CORSFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+
+import com.blueriver.filter.CORSFilter;
 
 import javax.servlet.Filter;
 

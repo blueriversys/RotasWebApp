@@ -1,4 +1,4 @@
-package com.javacodegeeks.config;
+package com.blueriver.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -11,12 +11,12 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
-import com.javacodegeeks.service.StatService;
-import com.javacodegeeks.service.StatServiceImpl;
+import com.blueriver.service.StatService;
+import com.blueriver.service.StatServiceImpl;
 
 @EnableWebMvc
 @Configuration
-@ComponentScan(basePackages = "com.javacodegeeks")
+@ComponentScan(basePackages = "com.blueriver")
 public class WebConfig extends WebMvcConfigurerAdapter {
 
 	/**

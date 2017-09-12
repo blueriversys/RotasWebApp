@@ -1,4 +1,4 @@
-package com.javacodegeeks.controller;
+package com.blueriver.controller;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -29,6 +29,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.blueriver.dao.StatDaoImpl;
+import com.blueriver.json.Stat;
+import com.blueriver.service.StatService;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
@@ -36,9 +39,6 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParseException;
 import com.google.gson.JsonParser;
-import com.javacodegeeks.dao.StatDaoImpl;
-import com.javacodegeeks.json.Stat;
-import com.javacodegeeks.service.StatService;
  
 @Controller
 @RequestMapping("/")
